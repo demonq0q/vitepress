@@ -17,7 +17,7 @@ export default defineConfig({
       { text: '🚀发掘中', 
         items: [
           { text: '数据结构', 
-            link: 'fighting/data-structure/数组与链表',
+            link: '/fighting/data-structure/数组与链表',
           },
 
         ],
@@ -36,27 +36,27 @@ export default defineConfig({
               items: [
                 {
                   text: '数组与链表',
-                  link: 'fighting/data-structure/数组与链表'
+                  link: '/fighting/data-structure/数组与链表'
                 },
                 {
                   text: '栈与队列',
-                  link: 'fighting/data-structure/栈与队列',
+                  link: '/fighting/data-structure/栈与队列',
                 },
                 {
                   text: '哈希表',
-                  link: 'fighting/data-structure/哈希表'
+                  link: '/fighting/data-structure/哈希表'
                 },
                 {
                   text: '树',
-                  link: 'fighting/data-structure/树',
+                  link: '/fighting/data-structure/树',
                 },
                 {
                   text: '排序',
-                  link: 'fighting/data-structure/排序'
+                  link: '/fighting/data-structure/排序'
                 },
                 {
                   text: '草稿',
-                  link: 'fighting/data-structure/草稿'
+                  link: '/fighting/data-structure/草稿'
                 },
               ]
             },
