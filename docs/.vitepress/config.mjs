@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "雨落波敛",
   description: "雨落的博客",
-  base: '/vitepress-docs/',
+  base: '/vitepress/',
   markdown: {
     math: true,
   },
