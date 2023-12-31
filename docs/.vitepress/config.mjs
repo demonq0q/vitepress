@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "雨落波敛",
-  description: "雨落的博客",
+  title: "☔雨落波敛",
+  description: "雨落☔博客",
   base: '/vitepress/',
   markdown: {
     math: true,
