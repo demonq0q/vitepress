@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 学习文档
-      link: /fighting/data-structure/数组与链表
+      link: /fighting/data-structure/数据结构
     # - theme: alt
     #   text: API Examples
     #   link: /api-examples

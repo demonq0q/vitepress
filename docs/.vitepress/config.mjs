@@ -15,7 +15,7 @@ export default defineConfig({
       { text: '🚀发掘中', 
         items: [
           { text: '数据结构', 
-            link: '/fighting/data-structure/数组与链表',
+            link: '/fighting/data-structure/数据结构',
           },
 
         ],
