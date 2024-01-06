@@ -1,2 +1,2 @@
 # vitepress
- 基于vitepress的文档网站
+ 基于 vite+vue的文档网站
