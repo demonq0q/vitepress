@@ -6,7 +6,7 @@ export default defineConfig({
   base: '/vitepress/',
   markdown: {
     math: true,
-    toc: { includeLevel: [2, 6] },
+    toc: { includeLevel: [1, 4] },
   },
   
   themeConfig: {
