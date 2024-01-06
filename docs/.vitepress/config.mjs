@@ -6,12 +6,10 @@ export default defineConfig({
   base: '/vitepress/',
   markdown: {
     math: true,
+    toc: { includeLevel: [2, 6] },
   },
-
+  
   themeConfig: {
-    // search: {
-    //   provider: 'local'
-    // },
     nav: [
       { text: '🏠首页', link: '/' },
       { text: '🚀发掘中', 
@@ -23,7 +21,10 @@ export default defineConfig({
         ],
       },
     ],
-
+    outline: {
+      level: [1, 4],
+      label: '目录'
+    },
     sidebar: 
     {
       '/fighting/': [
@@ -34,6 +35,10 @@ export default defineConfig({
               text: '数据结构',
               collapsed: false,
               items: [
+                {
+                  text: '数据结构',
+                  link: '/fighting/data-structure/数据结构'
+                },
                 {
                   text: '数组与链表',
                   link: '/fighting/data-structure/数组与链表'
@@ -65,7 +70,6 @@ export default defineConfig({
         },
       ]
     },
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/demonq0q' }
     ]
