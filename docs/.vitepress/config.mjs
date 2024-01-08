@@ -6,9 +6,10 @@ export default defineConfig({
   base: '/vitepress/',
   markdown: {
     math: true,
-    toc: { includeLevel: [1, 4] },
   },
-  
+  lang: 'zh-CN',
+  cleanUrls: false, // url 中删除尾随的 .html
+  // 设置元数据
   themeConfig: {
     nav: [
       { text: '🏠首页', link: '/' },
@@ -20,10 +21,15 @@ export default defineConfig({
 
         ],
       },
+      { text: '资源', link: '/resources/website' },
     ],
     outline: {
       level: [1, 4],
       label: '目录'
+    },
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
     },
     sidebar: 
     {
@@ -68,8 +74,14 @@ export default defineConfig({
 
           ]
         },
-      ]
+      ],
+
+      '/resources/': [
+        { text: '🕸 网站', link: '/resources/website' },
+      ],
+
     },
+    
     socialLinks: [
       { icon: 'github', link: 'https://github.com/demonq0q' }
     ]
