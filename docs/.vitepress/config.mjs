@@ -21,7 +21,6 @@ export default defineConfig({
 
         ],
       },
-      { text: '📁资源', link: '/resources/website' },
       { text: '✍随心记', 
         items: [
           {
@@ -30,6 +29,8 @@ export default defineConfig({
           }
         ]
       },
+      { text: '📁资源', link: '/resources/website' },
+      
     ],
     outline: {
       level: [1, 4],
@@ -83,18 +84,6 @@ export default defineConfig({
           ]
         },
       ],
-
-      '/resources/': [
-        {
-          text: '📁资源',
-          items: [
-            {
-              text: '🕸 网站', 
-              link: '/resources/website'
-            },
-          ]
-        }
-      ],
       '/write/': [
         {
           text: '✍随心记',
@@ -111,7 +100,18 @@ export default defineConfig({
             }
           ]
         }
-      ]
+      ],
+      '/resources/': [
+        {
+          text: '📁资源',
+          items: [
+            {
+              text: '🕸 网站', 
+              link: '/resources/website'
+            },
+          ]
+        }
+      ],
     },
     i18nRouting: true,
     socialLinks: [
