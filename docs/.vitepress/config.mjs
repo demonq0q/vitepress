@@ -8,7 +8,7 @@ export default defineConfig({
     math: true,
   },
   lang: 'zh-CN',
-  cleanUrls: false, // url 中删除尾随的 .html
+  cleanUrls: true, // url 中删除尾随的 .html
   // 设置元数据
   themeConfig: {
     nav: [
@@ -21,7 +21,15 @@ export default defineConfig({
 
         ],
       },
-      { text: '资源', link: '/resources/website' },
+      { text: '📁资源', link: '/resources/website' },
+      { text: '✍随心记', 
+        items: [
+          {
+            text: '2024',
+            link: '/write/2024/2024.01' 
+          }
+        ]
+      },
     ],
     outline: {
       level: [1, 4],
@@ -77,11 +85,35 @@ export default defineConfig({
       ],
 
       '/resources/': [
-        { text: '🕸 网站', link: '/resources/website' },
+        {
+          text: '📁资源',
+          items: [
+            {
+              text: '🕸 网站', 
+              link: '/resources/website'
+            },
+          ]
+        }
       ],
-
+      '/write/': [
+        {
+          text: '✍随心记',
+          items: [
+            {
+              text: '2024',
+              collapsed: false,
+              items: [
+                {
+                  text: '2024.01',
+                  link: 'write/2024/2024.01'
+                },
+              ]
+            }
+          ]
+        }
+      ]
     },
-    
+    i18nRouting: true,
     socialLinks: [
       { icon: 'github', link: 'https://github.com/demonq0q' }
     ]

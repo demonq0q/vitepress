@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "雨落☔波敛"
   text: " "
-  tagline: 文档中心
+  tagline: 努力发掘自己...
   image: 
     src: logo.png
     alt: demon
@@ -18,10 +18,13 @@ hero:
     #   link: /api-examples
 
 features:
-  - title: 😴
-    details: 持续更新中...
-  - title: 🙃
-    details: 持续秃头中...
-  - title: 👻
-    details: to be continue...=>
+  - icon: 😴
+    title: 持续更新中...
+    details: 
+  - icon: 🙃
+    title: 持续秃头中...
+    details: 
+  - icon: 👻
+    title: to be continue...=>
+    details: 
 ---
