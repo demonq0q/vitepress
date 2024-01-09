@@ -114,12 +114,14 @@ export default defineConfig({
         }
       ],
     },
-    algolia: {
-      apiKey: 'efdec22e7f53aff33bb12d97899f19a3',
-      indexName: 'vitepress-docs',
-      appId: '6TUWP2Q7B6',
-      placeholder: '请输入关键词',
-
+    search: {
+      provider: 'algolia',
+      options: {
+          apiKey: 'efdec22e7f53aff33bb12d97899f19a3',
+          indexName: 'vitepress-docs',
+          appId: '6TUWP2Q7B6',
+          placeholder: '请输入关键词',
+      }
     },
     i18nRouting: true,
     socialLinks: [
