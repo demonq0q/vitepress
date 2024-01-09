@@ -117,13 +117,12 @@ export default defineConfig({
     search: {
       provider: 'algolia',
       options: {
-          apiKey: '7175256a3453ba0774c699d4cc25edb2',
-          indexName: 'vitepress',
+          apiKey: '99afe89b370a88639c36f42800fceeae',
+          indexName: 'demonq0q',
           appId: 'NHFYMP4MRE',
           placeholder: '请输入关键词',
       }
     },
-    i18nRouting: true,
     socialLinks: [
       { icon: 'github', link: 'https://github.com/demonq0q' }
     ]
