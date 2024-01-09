@@ -116,7 +116,7 @@ export default defineConfig({
     },
     algolia: {
       appId: 'NHFYMP4MRE',
-      apiKey: '99afe89b370a88639c36f42800fceeae',
+      apiKey: '7175256a3453ba0774c699d4cc25edb2',
       indexName: 'demonq0q',
       placeholder: '请输入关键词',
     },
