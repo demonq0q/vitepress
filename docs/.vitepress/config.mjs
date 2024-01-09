@@ -114,14 +114,11 @@ export default defineConfig({
         }
       ],
     },
-    search: {
-      provider: 'algolia',
-      options: {
-          apiKey: '99afe89b370a88639c36f42800fceeae',
-          indexName: 'demonq0q',
-          appId: 'NHFYMP4MRE',
-          placeholder: '请输入关键词',
-      }
+    algolia: {
+      appId: 'NHFYMP4MRE',
+      apiKey: '99afe89b370a88639c36f42800fceeae',
+      indexName: 'demonq0q',
+      placeholder: '请输入关键词',
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/demonq0q' }
