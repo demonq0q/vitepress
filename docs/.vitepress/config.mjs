@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "☔雨落波敛",
-  description: "雨落☔博客",
+  title: "雨落的博客",
+  description: "雨落的博客",
   base: '/vitepress/',
   markdown: {
     math: true,
@@ -11,6 +11,7 @@ export default defineConfig({
   cleanUrls: true, // url 中删除尾随的 .html
   // 设置元数据
   themeConfig: {
+    logo: 'favicon.ico',
     nav: [
       { text: '🏠首页', link: '/' },
       { text: '🚀发掘中', 

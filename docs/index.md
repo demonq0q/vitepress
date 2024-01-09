@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "雨落☔波敛"
+  name: "雨落波敛"
   text: " "
   tagline: 努力发掘自己...
   image: 
