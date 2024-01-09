@@ -117,9 +117,9 @@ export default defineConfig({
     search: {
       provider: 'algolia',
       options: {
-          apiKey: 'efdec22e7f53aff33bb12d97899f19a3',
+          apiKey: '7175256a3453ba0774c699d4cc25edb2',
           indexName: 'vitepress',
-          appId: '6TUWP2Q7B6',
+          appId: 'NHFYMP4MRE',
           placeholder: '请输入关键词',
       }
     },
